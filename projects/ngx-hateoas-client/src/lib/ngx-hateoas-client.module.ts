@@ -19,9 +19,7 @@ export { HateoasResourceService } from './service/external/hateoas-resource.serv
 export { HateoasResource, HateoasEmbeddedResource, HateoasProjection, ProjectionRel } from './model/decorators';
 
 @NgModule({
-  imports: [
-    HttpClientModule
-  ]
+  imports: []
 })
 export class NgxHateoasClientModule {
   static forRoot(): ModuleWithProviders<NgxHateoasClientModule> {
